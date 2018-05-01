@@ -6,11 +6,11 @@
 /*   By: maljean <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/21 20:27:00 by maljean           #+#    #+#             */
-/*   Updated: 2018/04/21 21:29:07 by maljean          ###   ########.fr       */
+/*   Updated: 2018/05/01 15:50:30 by maljean          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 int		find_waldo(int fd, char **buff, char **line)
 {

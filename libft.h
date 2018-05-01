@@ -6,7 +6,7 @@
 /*   By: maljean <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/01 14:14:56 by maljean           #+#    #+#             */
-/*   Updated: 2018/03/01 15:27:27 by maljean          ###   ########.fr       */
+/*   Updated: 2018/05/01 15:49:22 by maljean          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,13 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <sys/types.h>
+# include <sys/uio.h>
+# include <fcntl.h>
 # define SPACE (s[i] == ' ') || (s[i] == '\n') || (s[i] == '\t')
 # define MAX "2147483648"
 # define MIN "-2147483648"
+# define BUFF_SIZE 16
 
 typedef	struct	s_list
 {
@@ -26,6 +30,7 @@ typedef	struct	s_list
 	struct s_list	*next;
 }				t_list;
 
+int				get_next_line(int fd, char **line);
 int				ft_atoi(const char *str);
 void			ft_bzero(void *s, size_t n);
 int				ft_isalnum(int c);
