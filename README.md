@@ -25,37 +25,6 @@ As you can see from the [Project instructions][1], there are 4 sections:
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
 4.  **Personal Functions:** Functions I believe will be useful later. [Documented here][3].
 
-Libc functions | Additional functions | Bonus Functions
-:----------- | :-----------: | :-----------: | -----------:
-memset		| ft_memalloc	| ft_lstnew		
-bzero		| ft_memdel		| ft_lstdelone	
-memcpy		| ft_strnew		| ft_lstdel		
-memccpy		| ft_strdel		| ft_lstadd		
-memmove		| ft_strclr		| ft_lstiter	
-memchr		| ft_striter	| ft_lstmap		
-memcmp		| ft_striteri	|				
-strlen		| ft_strmap		|				
-strdup		| ft_strmapi	|				
-strcpy		| ft_strequ		|				
-strncpy		| ft_strnequ	|			
-strcat		| ft_strsub		| | ft_intlen
-strlcat		| ft_strjoin	| | ft_strendswith
-strchr		| ft_strtrim	| | ft_pathjoin
-strrchr		| ft_strsplit	| | ft_lstaddback
-strstr		| ft_itoa		| | get_next_line
-strnstr		| ft_putchar	| | ft_putnstr
-strcmp		| ft_putstr		| | ft_strreplace
-strncmp		| ft_putendl	| | ft_isemptystr
-atoi		| ft_putnbr		| | ft_strsplitall
-isalpha		| ft_putchar_fd	| | ft_countwordsall
-isdigit		| ft_putstr_fd	| | ft_freestrarr
-isalnum		| ft_putendl_fd	| | ft_strjoincl
-isascii		| ft_putnbr_fd	| | ft_strjoinchcl
-isprint		|| | ft_count2darray
-toupper		| | | ft_strarrmax
-tolower		| | | ft_get_parent_path
-
-
 Notes:
 
 - Most of the the files and function names are namespaced with an **ft** in front. It stands for Fourty Two
